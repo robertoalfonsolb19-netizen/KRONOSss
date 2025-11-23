@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTAFOLIO KRONOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="outer-description" id="description-panel">
+      <p class="placeholder-text">Sin descripción asignada.</p>
+    </div>
+
+    <div class="terminal-container">
+      <header class="terminal-header">
+        <span class="terminal-title">PORTAFOLIO DE ROBERTO LOPEZ</span>
+      </header>
+      <div class="terminal-content">
+        <div class="info-panel" id="info-panel">
+          <p class="placeholder-text">Panel de visualización<br>Esperando comando...</p>
+        </div>
+        <div class="log-panel" id="log-panel">
+          <div class="terminal-prompt">
+            <span>></span>
+            <input type="text" id="terminal-input" autofocus>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="return-btn" class="terminal-button return-btn">
+    ↩ VOLVER AL INICIO
+  </button>
+  </div>
+
+  <!-- Pantalla de transición -->
+  <div id="transition-screen">
+    <div class="transition-text">
+      <p>> Iniciando secuencia de retorno...</p>
+      <p>> Reconectando con el sistema KRONOS...</p>
+    </div>
+  </div>
+
+  <!-- Botón de volver -->
+  
+
+  <script>
+    document.getElementById('return-btn').addEventListener('click', () => {
+      const transition = document.getElementById('transition-screen');
+      transition.classList.add('active');
+      setTimeout(() => {
+        window.location.href = "index.html"; 
+      }, 3000);
+    });
+  </script>
+
+  <script src="scrips.js"></script>
+  
+</body>
+</html>
