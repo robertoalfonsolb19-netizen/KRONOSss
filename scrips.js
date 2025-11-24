@@ -20,23 +20,27 @@ document.addEventListener('DOMContentLoaded', () => {
         'proyecto 17': 'https://rekky-sensen.vercel.app',
         'proyecto 18': 'https://proyecto-18-seven.vercel.app',
         'proyecto 19': 'https://pokerrr.vercel.app',
-        'menu 1': 'https://menu-bonito.vercel.app' // Espacios лишние en la clave eliminados
+        'menu 1': 'https://menu-bonito.vercel.app',
+        'toogle': 'https://toogle-sand.vercel.app',
+        'dark theme': 'https://dark-pi-kohl.vercel.app'
     };
 
     // --- BASE DE DATOS DE DESCRIPCIONES ---
     const projectDescriptions = {
-        'proyecto 1': 'Proyecto 1: El primer proyecto puesto por la profesora Keila, proyecto estilo anuncio personalizado.',
-        'proyecto 2': 'Proyecto 2: El segundo proyecto donde hicimos una tarjeta que reacciona al paso del mouse y que esta contiene un elemento flotante.',
-        'proyecto 3': 'Proyecto 3: El tercer proyecto pagina avanzada interactiva y navegación fluida que imita la pagina de netflix.',
-        'proyecto 4': 'Proyecto 4: El cuarto proyecto una pagina con varias cartas con una animación suave que muestra info de cada una.',
-        'proyecto 5': 'Proyecto 5: El quinto proyecto es una pagina de inicio de sesion con un css maravilloso.',
-        'proyecto 6': 'Proyecto 6: El sexto proyecto una pagina maravillosa con una breve descripción con uno de los mejores autos de la historia.',
+        'proyecto 1':  'Proyecto 1: El primer proyecto puesto por la profesora Keila, proyecto estilo anuncio personalizado.',
+        'proyecto 2':  'Proyecto 2: El segundo proyecto donde hicimos una tarjeta que reacciona al paso del mouse y que esta contiene un elemento flotante.',
+        'proyecto 3':  'Proyecto 3: El tercer proyecto pagina avanzada interactiva y navegación fluida que imita la pagina de netflix.',
+        'proyecto 4':  'Proyecto 4: El cuarto proyecto una pagina con varias cartas con una animación suave que muestra info de cada una.',
+        'proyecto 5':  'Proyecto 5: El quinto proyecto es una pagina de inicio de sesion con un css maravilloso.',
+        'proyecto 6':  'Proyecto 6: El sexto proyecto una pagina maravillosa con una breve descripción con uno de los mejores autos de la historia.',
         'proyecto 16': 'Proyecto 16: El decimosexto proyecto una pagina con unos colores excelentes y unos de los raps mas épicos de rekkyo sensen.',
         'proyecto 17': 'Proyecto 17: El decimoséptimo proyecto una pagina fan de rekkyo sensen donde se da el contexto de la serie y te invita a leerla.',
         'proyecto 18': 'Proyecto 18: El decimoctavo proyecto una pagina simple donde se muestran cajas de colores con algunos iconos.',
         'proyecto 19': 'Proyecto 19: El decimonoveno otro proyecto de cartas pero algo menos sencillo con colores mas dinámicos.',
-        'web basica': 'Primer ejemplo de sitio minimalista con HTML puro puesto para retroalimentar nuestros conocimientos en HTML.',
-        'menu 1': 'Este menú con un aspecto minimalista y diversas animaciones y unos colores que te dejarán cautivado, sinceramente, uno de los mejores menús que he visto.' // Espacios лишние en la clave eliminados
+        'web basica':  'Primer ejemplo de sitio minimalista con HTML puro puesto para retroalimentar nuestros conocimientos en HTML.',
+        'menu 1':      'Este menú con un aspecto minimalista y diversas animaciones y unos colores que te dejarán cautivado, sinceramente, uno de los mejores menús que he visto.',
+        'toogle':      'Un simple boton donde todo esta animado de una forma hermosa , donde luego muestra una linda animacion y muestra un lindo cartel que solo dice la verdad',
+        'dark theme':  'un interumtor que cambia por completo el tono de la pagina'
     };
 
     // Función: Añadir líneas al log
